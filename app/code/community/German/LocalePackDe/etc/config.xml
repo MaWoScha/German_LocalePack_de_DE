@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category  German
+ * @package   German_LocalePack
+ * @authors   MaWoScha <mawoscha@siempro.co, http://www.siempro.co/>, Rico Neitzel <rico@buro71a.de, http://www.buro71a.de/>
+ * @developer MaWoScha <mawoscha@siempro.co, http://www.siempro.co/>, Rico Neitzel <rico@buro71a.de, http://www.buro71a.de/>
+ * @license   http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
+ -->
+<config>
+    <modules>
+        <German_LocalePackDe>
+            <version>0.1.0</version>
+            <locale>de_DE</locale>
+            <title>German (Germany) Language Pack</title>
+            <link_git>https://github.com/riconeitzel/German_LocalePack_de_DE</link_git>
+            <link_mage>http://www.magentocommerce.com/magento-connect/locale-mage-community-de-de.html</link_mage>
+            <mage_key>http://connect20.magentocommerce.com/community/Locale_Mage_community_de_DE</mage_key>
+        </German_LocalePackDe>
+    </modules>
+
+    <global>
+        <models>
+            <localepackde>
+                <class>German_LocalePackDe_Model</class>
+            </localepackde>
+        </models>
+        <helpers>
+            <localepackde>
+                <class>German_LocalePackDe_Helper</class>
+            </localepackde>
+        </helpers>
+        <blocks>
+            <localepackde>
+                <class>German_LocalePackDe_Block</class>
+            </localepackde>
+        </blocks>
+        <events>
+            <adminhtml_controller_action_predispatch_start>
+                <observers>
+                    <localepackde>
+                        <class>localepackde/observer</class>
+                        <method>adminhtmlControllerActionPredispatchStart</method>
+                    </localepackde>
+                </observers>
+            </adminhtml_controller_action_predispatch_start>
+        </events>
+    </global>
+	
+    <default>
+        <localepackde>
+             <notification>
+                <url>https://github.com/riconeitzel/German_LocalePack_de_DE</url>
+            </notification>
+        </localepackde>
+        <magesetup>
+            <default_country>DE</default_country>
+        </magesetup>
+    </default>
+
+    <adminhtml>
+        <translate>
+            <modules>
+                <German_LocalePackDe>
+                    <files>
+                        <default>German_LocaleDe.csv</default>
+                    </files>
+                </German_LocalePackDe>
+            </modules>
+        </translate>
+        <acl>
+            <resources>
+                <all>
+                    <title>Allow Everything</title>
+                </all>
+                <admin>
+                    <children>
+                        <system>
+                            <children>
+                                <config>
+                                    <children> <!--
+                                        <localepacks translate="title" module="localepackde">
+                                            <title>Language Packs</title>
+                                    		<children> -->
+                                        		<localepackde translate="title" module="localepackde">
+                                            		<title>German (Germany) Language Pack</title>
+                                        		</localepackde> <!--
+                                    		</children>
+                                        </localepacks> -->
+                                    </children>
+                                </config>
+                            </children>
+                        </system>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
+    </adminhtml>
+
+</config>
