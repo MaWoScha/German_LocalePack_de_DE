@@ -1,0 +1,40 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magento.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magento.com for more information.
+ *
+ * @category    design
+ * @package     default
+ * @copyright   Copyright (c) 2006-2014 X.commerce, Inc. (http://www.magento.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+?>
+<?php echo $this->template('install/header.phtml') ?>
+<div class="page-head">
+<h3 style="color:red">Fehler: Bitte auf ausreichende Schreibrechte der Dateien überprüfen</h3>
+</div>
+
+<p>Ihr Magento-Verzeichnis verfügt nicht über die ausreichenden Schreibrechte, welche der web-basierte Installierer erfordert.</p>
+<p>Wenn Sie den Download von Magento-Paketen online fortsetzen möchten, dann setzen Sie bitte die Rechte für alle Magento Verzeichnisse so, dass diese ausreichende Schreibrechte für den Web-Server Nutzer haben, (z.B. Apache) und klicken Sie auf den "Aktualisieren"-Button, um es erneut zu probieren.</p>
+
+<button class="form-button" type="button" onclick="location.reload()"><span>Aktualisieren</span></button>
+<br/><br/><br/>
+<p>Um mehr über das Setzen der Schreibrechte zu erfahren, besuchen Sie bitte <a href="http://www.magentocommerce.com/knowledge-base/entry/magento-installation-guide" target="Install_Help">die Magento Community-Webseite</a> für weitere Details.</p>
+<p>Alternativ, wenn Sie ein Entwickler sind und mit SVN vertraut sind, können Sie <a href="http://www.magentocommerce.com/svn" target="Install_Help">diesen Anweisungen</a> folgen, um hier den aktuellen Magento-Zweig zu bekommen.</p>
+<?php echo $this->template('install/footer.phtml') ?>
+
