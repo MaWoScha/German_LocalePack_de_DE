@@ -13,7 +13,7 @@ German language pack for Magento Commerce
 Paquete de idioma alemán para Magento Commerce</description>
    <license>OSL</license>
    <license_uri>http://opensource.org/licenses/osl-3.0.php</license_uri>
-   <version>0.2.0</version>
+   <version>0.3.0</version>
    <stability>stable</stability>
    <notes>Compatible with Magento (1.6.2) 1.7.0.x-1.9.2.x</notes>
    <authors>
@@ -62,8 +62,27 @@ Paquete de idioma alemán para Magento Commerce</description>
    <contents>
       <target>
          <target>magelocal</target>
+         <target>magedesign</target>
          <target>magecommunity</target>
          <target>mageetc</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
          <target>mage</target>
          <target>mage</target>
          <target>magelocale</target>
@@ -74,10 +93,29 @@ Paquete de idioma alemán para Magento Commerce</description>
       </target>
       <path>
          <path/>
+         <path>adminhtml/default/default/layout/localepackde.xml</path>
          <path>German/LocalePackDe</path>
          <path>modules/German_LocalePackDe.xml</path>
          <path>downloader/template_de_1.5</path>
          <path>downloader/template_de_1.7</path>
+         <path>js/german/localepackde/setup.js</path>
+         <path>js/tiny_mce/langs/de.js</path>
+         <path>js/tiny_mce/plugins/advhr/langs/de_dlg.js</path>
+         <path>js/tiny_mce/plugins/advimage/langs/de_dlg.js</path>
+         <path>js/tiny_mce/plugins/advlink/langs/de_dlg.js</path>
+         <path>js/tiny_mce/plugins/autosave/langs/de.js</path>
+         <path>js/tiny_mce/plugins/emotions/langs/de_dlg.js</path>
+         <path>js/tiny_mce/plugins/fullpage/langs/de_dlg.js</path>
+         <path>js/tiny_mce/plugins/media/langs/de_dlg.js</path>
+         <path>js/tiny_mce/plugins/paste/langs/de_dlg.js</path>
+         <path>js/tiny_mce/plugins/searchreplace/langs/de_dlg.js</path>
+         <path>js/tiny_mce/plugins/style/langs/de_dlg.js</path>
+         <path>js/tiny_mce/plugins/table/langs/de_dlg.js</path>
+         <path>js/tiny_mce/plugins/template/langs/de_dlg.js</path>
+         <path>js/tiny_mce/plugins/xhtmlxtras/langs/de_dlg.js</path>
+         <path>js/tiny_mce/themes/advanced/langs/de.js</path>
+         <path>js/tiny_mce/themes/advanced/langs/de_dlg.js</path>
+         <path>js/tiny_mce/themes/simple/langs/de.js</path>
          <path>de_DE/German_LocaleDe.csv</path>
          <path>en_US/German_LocaleDe.csv</path>
          <path>es_ES/German_LocaleDe.csv</path>
@@ -86,10 +124,29 @@ Paquete de idioma alemán para Magento Commerce</description>
       </path>
       <type>
          <type>file</type>
+         <type>file</type>
          <type>dir</type>
          <type>file</type>
          <type>dir</type>
          <type>dir</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
          <type>file</type>
          <type>file</type>
          <type>file</type>
@@ -107,9 +164,47 @@ Paquete de idioma alemán para Magento Commerce</description>
          <include/>
          <include/>
          <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
       </include>
       <ignore>
          <ignore/>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
          <ignore>#^.DS_Store#</ignore>
          <ignore>#^.DS_Store#</ignore>
          <ignore>#^.DS_Store#</ignore>
