@@ -13,7 +13,7 @@ German language pack for Magento Commerce
 Paquete de idioma alemán para Magento Commerce</description>
    <license>OSL</license>
    <license_uri>http://opensource.org/licenses/osl-3.0.php</license_uri>
-   <version>0.3.0</version>
+   <version>0.3.3</version>
    <stability>stable</stability>
    <notes>Compatible with Magento (1.6.2) 1.7.0.x-1.9.2.x</notes>
    <authors>
@@ -90,6 +90,7 @@ Paquete de idioma alemán para Magento Commerce</description>
          <target>magelocale</target>
          <target>magelocale</target>
          <target>magelocale</target>
+         <target>magelocale</target>
       </target>
       <path>
          <path/>
@@ -116,6 +117,7 @@ Paquete de idioma alemán para Magento Commerce</description>
          <path>js/tiny_mce/themes/advanced/langs/de.js</path>
          <path>js/tiny_mce/themes/advanced/langs/de_dlg.js</path>
          <path>js/tiny_mce/themes/simple/langs/de.js</path>
+         <path>de_DE/template</path>
          <path>de_DE/German_LocaleDe.csv</path>
          <path>en_US/German_LocaleDe.csv</path>
          <path>es_ES/German_LocaleDe.csv</path>
@@ -147,6 +149,7 @@ Paquete de idioma alemán para Magento Commerce</description>
          <type>file</type>
          <type>file</type>
          <type>file</type>
+         <type>dir</type>
          <type>file</type>
          <type>file</type>
          <type>file</type>
@@ -183,9 +186,11 @@ Paquete de idioma alemán para Magento Commerce</description>
          <include/>
          <include/>
          <include/>
+         <include/>
       </include>
       <ignore>
          <ignore/>
+         <ignore>#^.DS_Store#</ignore>
          <ignore>#^.DS_Store#</ignore>
          <ignore>#^.DS_Store#</ignore>
          <ignore>#^.DS_Store#</ignore>
