@@ -1,4 +1,4 @@
-<!--@subject Payment Transaction Failed Reminder @-->
+<!--@subject Zahlung fehlgeschlagen @-->
 <!--@vars
 {"var reason":"Transaction Failed Reason",
 "var checkoutType":"Checkout Type",
@@ -15,54 +15,54 @@
 
 <table>
     <thead>
-        <tr>
-            <th>Zahlungstransaktion fehlgeschlagen.</th>
-        </tr>
+    <tr>
+        <th>Zahlung fehlgeschlagen.</th>
+    </tr>
     </thead>
     <tbody>
-        <tr>
-            <td>
-                <p>
-                    <b>Grund</b><br />
-                    {{var reason}}
-                </p>
-                <p>
-                    <b>Kassentyp</b><br />
-                    {{var checkoutType}}
-                </p>
-                <p>
-                    <b>Kunde:</b><br />
-                    <a href="mailto:{{var customerEmail}}">{{var customer}}</a> &lt;{{var customerEmail}}&gt;
-                </p>
-                <p>
-                    <b>Artikel</b><br />
-                    {{var items}}
-                </p>
-                <p>
-                    <b>Summe:</b><br />
-                    {{var total}}
-                </p>
-                <p>
-                    <b>Rechnungsanschrift:</b><br />
-                    {{var billingAddress.format('html')}}
-                </p>
-                <p>
-                    <b>Lieferadresse:</b><br />
-                    {{var shippingAddress.format('html')}}
-                </p>
-                <p>
-                    <b>Liefermethode:</b><br />
-                    {{var shippingMethod}}
-                </p>
-                <p>
-                    <b>Zahlungsform:</b><br />
-                    {{var paymentMethod}}
-                </p>
-                <p>
-                    <b>Datum/Uhrzeit:</b><br />
-                    {{var dateAndTime}}
-                </p>
-            </td>
-        </tr>
+    <tr>
+        <td>
+            <p>
+                <b>Grund</b><br />
+                {{var reason}}
+            </p>
+            <p>
+                <b>Bezahlvorgang</b><br />
+                {{var checkoutType}}
+            </p>
+            <p>
+                <b>Kunde</b><br />
+                <a href="mailto:{{var customerEmail}}">{{var customer}}</a> &lt;{{var customerEmail}}&gt;
+            </p>
+            <p>
+                <b>Artikel</b><br />
+                {{var items}}
+            </p>
+            <p>
+                <b>Gesamtsumme</b><br />
+                {{var total}}
+            </p>
+            <p>
+                <b>Rechnungsadresse</b><br />
+                {{var billingAddress.format('html')}}
+            </p>
+            <p>
+                <b>Versandadresse</b><br />
+                {{var shippingAddress.format('html')}}
+            </p>
+            <p>
+                <b>Versandart</b><br />
+                {{var shippingMethod}}
+            </p>
+            <p>
+                <b>Zahlungsart</b><br />
+                {{var paymentMethod}}
+            </p>
+            <p>
+                <b>Datum &amp; Zeit</b><br />
+                {{var dateAndTime}}
+            </p>
+        </td>
+    </tr>
     </tbody>
 </table>
