@@ -11,7 +11,7 @@
 <config>
     <modules>
         <German_LocalePackDe>
-            <version>0.3.6</version>
+            <version>0.3.9</version>
             <locale>de_DE</locale>
             <title>German (Germany) Language Pack</title>
             <link_git>https://github.com/riconeitzel/German_LocalePack_de_DE</link_git>
@@ -46,6 +46,16 @@
                 </observers>
             </adminhtml_controller_action_predispatch_start>
         </events>
+        <resources>
+            <localepackde_setup>
+                <setup>
+                    <module>German_LocalePackDe</module>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </localepackde_setup>
+        </resources>
     </global>
 	
     <default>

@@ -27,13 +27,15 @@
             <table cellpadding="0" cellspacing="0" border="0">
                 <tr>
                     <td class="email-heading">
-                        <h1>Hallo {{htmlescape var=$order.getCustomerName()}},</h1>
+                        <h1>{{block type="cms/block" block_id="email_template_say_hello"}} {{htmlescape var=$order.getCustomerName()}},</h1>
                         <p>vielen Dank für Ihre Bestellung bei {{var store.getFrontendName()}}.
                             Sobald Ihre Sendung verschickt wurde, erhalten Sie per E-Mail weitere Informationen zur Sendungsverfolgung.
                             Nachfolgend finden Sie Ihre Bestellbestätigung.</p>
                     </td>
                     <td class="store-info">
-                        {{template config_path="design/email/support"}}
+                        <p>
+                            {{block type="cms/block" block_id="email_template_contact"}}
+                        </p>
                     </td>
                 </tr>
             </table>

@@ -16,7 +16,7 @@
 <table cellpadding="0" cellspacing="0" border="0">
     <tr>
         <td class="action-content">
-            <h1>Hallo {{htmlescape var=$customer.name}},</h1>
+            <h1>{{block type="cms/block" block_id="email_template_say_hello"}} {{htmlescape var=$customer.name}},</h1>
             <p>herzlich willkommen in unserem Shop. Um sich bei Ihrem nächsten Besuch in unserem Shop anzumelden, klicken Sie einfach auf <a href="{{store url="customer/account/"}}">Anmelden</a> oder <a href="{{store url="customer/account/"}}">Mein Benutzerkonto</a> im oberen Bereich jeder Seite, und geben Sie Ihre E-Mail-Adresse und Passwort ein.</p>
             <p>Nach erfolgreichem Login auf unserer Seite haben Sie die folgenden Möglichkeiten:</p>
             <ul>
@@ -27,7 +27,9 @@
                 <li>Ihr Passwort ändern,</li>
                 <li>Verschiedene Adressen für den Versand an Familienmitglieder und Freunde sowie Rechnungsadressen speichern.</li>
             </ul>
-            {{template config_path="design/email/support"}}
+            <p>
+                {{block type="cms/block" block_id="email_template_contact"}}
+            </p>
         </td>
     </tr>
 </table>

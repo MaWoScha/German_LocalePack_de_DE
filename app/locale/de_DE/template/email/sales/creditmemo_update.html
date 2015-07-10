@@ -22,7 +22,7 @@
             <table cellpadding="0" cellspacing="0" border="0">
                 <tr>
                     <td class="action-content">
-                        <h1>Hallo {{htmlescape var=$order.getCustomerName()}},</h1>
+                        <h1>{{block type="cms/block" block_id="email_template_say_hello"}} {{htmlescape var=$order.getCustomerName()}},</h1>
                         <p>Ihre Bestellung Nr. <span class="no-link">#{{var order.increment_id}}</span> hat den Status <strong>{{var order.getStatusLabel()}}</strong>.</p>
                         {{if comment}}
                         <table cellspacing="0" cellpadding="0" class="message-container">
@@ -32,7 +32,9 @@
                         </table>
                         {{/if}}
                         <p>Sie können den Status Ihrer Bestellung jederzeit in <a href="{{store url="customer/account/"}}">Ihrem Benutzerkonto</a> einsehen.</p>
-                        {{template config_path="design/email/support"}}
+                        <p>
+                            {{block type="cms/block" block_id="email_template_contact"}}
+                        </p>
                     </td>
                 </tr>
             </table>
