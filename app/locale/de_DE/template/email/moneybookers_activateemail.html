@@ -1,6 +1,9 @@
 <!--@subject {{var subject}} @-->
-{{var store.getFrontendName()}}<br>
-Moneybookers E-Mail-Adresse: {{var email_addr}}<br>
-Moneybookers Kundennummer: {{var customer_id}}<br>
-URL: {{var url}}<br>
-Sprache: {{var language}}<br>
+{{template config_path="design/email/header"}}
+<p>
+Moneybookers E-Mail-Adresse: {{var email_addr}} <br />
+Moneybookers Kunden-Nr.: {{var customer_id}} <br />
+URL: {{var url}} <br />
+Sprache: {{var language}}
+</p>
+{{template config_path="design/email/footer"}}

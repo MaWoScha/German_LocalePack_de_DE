@@ -1,4 +1,4 @@
-<!--@subject Willkommen {{var name}} @-->
+<!--@subject Herzlich willkommen, {{var name}} @-->
 <!--@vars
 {"htmlescape var=$name":"Recipient Name",
 "var email":"Recipient Email address",
@@ -16,11 +16,11 @@
 <table cellpadding="0" cellspacing="0" border="0">
     <tr>
         <td class="action-content">
-            <h1>{{block type="cms/block" block_id="email_template_say_hello"}} {{htmlescape var=$name}},</h1>
-            <p>{{htmlescape var=$sender_name}} möchte Ihnen folgendes Produkt zeigen: <a href="{{var product_url}}">{{var product_name}}</a></p>
+            <h1>{{block type="cms/block" block_id="email_template_say_hello"}} {{htmlescape var=$name}}</h1>
+            <p>Bitte verpassen Sie <a href="{{var product_url}}">{{var product_name}}</a> nicht!</p>
             <table cellspacing="0" cellpadding="0" class="message-container">
                 <tr>
-                    <td><strong>Nachricht:</strong> {{var message}}</td>
+                    <td><strong>Hier ist eine Nachricht für Sie:</strong> {{var message}}</td>
                 </tr>
             </table>
         </td>

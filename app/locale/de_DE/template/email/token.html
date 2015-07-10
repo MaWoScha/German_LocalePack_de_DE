@@ -1,4 +1,4 @@
-<!--@subject Hallo {{var name}} @-->
+<!--@subject Autorisierung: Status zu {{var name}} geändert @-->
 <!--@vars
 {"htmlescape var=$userName":"User name",
 "var $applicationName":"Application name",
@@ -11,7 +11,7 @@
     <tr>
         <td class="action-content">
             <h1>{{block type="cms/block" block_id="email_template_say_hello"}} {{htmlescape var=$userName}}</h1>
-            <p>die Autorisation für <b>{{htmlescape var=$applicationName}}</b> wurde vom Administrationsteam auf <b>{{htmlescape var=$status}}</b> geändert.</p>
+            <p>Ihre Berechtigung für <b>{{htmlescape var=$applicationName}}</b> ist geändert worden auf <b>{{htmlescape var=$status}}</b> durch das Admin-Team.</p>
         </td>
     </tr>
 </table>

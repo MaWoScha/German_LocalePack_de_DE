@@ -1,7 +1,11 @@
-<!--@subject Cron-Fehler bei Produkt-Benachrichtigung @-->
+<!--@subject Produkt meldet Cron-Warnmeldungen @-->
 <!--@vars
 {"var warnings":"Warnings"}
 @-->
-Cron-Fehler und -Warnungen bei Produkt-Benachrichtigung:
+{{template config_path="design/email/header"}}
+
+Produkt meldet Cron-Warnmeldungen: <br /><br />
 
 {{var warnings}}
+
+{{template config_path="design/email/footer"}}

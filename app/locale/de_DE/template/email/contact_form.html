@@ -1,12 +1,15 @@
-<!--@subject Kontaktformular @-->
+<!--@subject Kontaktformular@-->
 <!--@vars
 {"var data.name":"Sender Name",
 "var data.email":"Sender Email",
 "var data.telephone":"Sender Telephone",
 "var data.comment":"Comment"}
 @-->
-Name: {{var data.name}}
-E-Mail: {{var data.email}}
-Telefon: {{var data.telephone}}
-
-Kommentar: {{var data.comment}}
+{{template config_path="design/email/header"}}
+<p>
+Name: {{var data.name}} <br />
+E-Mail-Adresse: {{var data.email}} <br />
+Telefon: {{var data.telephone}} <br /><br />
+Bemerkungen: {{var data.comment}}
+</p>
+{{template config_path="design/email/footer"}}

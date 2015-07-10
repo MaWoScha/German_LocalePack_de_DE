@@ -1,4 +1,4 @@
-<!--@subject Zahlung fehlgeschlagen @-->
+<!--@subject Erinnerung: Zahlung fehlgeschlagen @-->
 <!--@vars
 {"var reason":"Transaction Failed Reason",
 "var checkoutType":"Checkout Type",
@@ -12,11 +12,11 @@
 "var paymentMethod":"Payment Method",
 "var dateAndTime":"Date and Time of Transaction"}
 @-->
-
+{{template config_path="design/email/header"}}
 <table>
     <thead>
     <tr>
-        <th>Zahlung fehlgeschlagen.</th>
+        <th>Zahlung ist fehlgeschlagen.</th>
     </tr>
     </thead>
     <tbody>
@@ -27,11 +27,11 @@
                 {{var reason}}
             </p>
             <p>
-                <b>Bezahlvorgang</b><br />
+                <b>Kassentyp</b><br />
                 {{var checkoutType}}
             </p>
             <p>
-                <b>Kunde</b><br />
+                <b>Kunde:</b><br />
                 <a href="mailto:{{var customerEmail}}">{{var customer}}</a> &lt;{{var customerEmail}}&gt;
             </p>
             <p>
@@ -39,30 +39,31 @@
                 {{var items}}
             </p>
             <p>
-                <b>Gesamtsumme</b><br />
+                <b>Gesamtsumme:</b><br />
                 {{var total}}
             </p>
             <p>
-                <b>Rechnungsadresse</b><br />
+                <b>Rechnungsadresse:</b><br />
                 {{var billingAddress.format('html')}}
             </p>
             <p>
-                <b>Versandadresse</b><br />
+                <b>Versandadresse:</b><br />
                 {{var shippingAddress.format('html')}}
             </p>
             <p>
-                <b>Versandart</b><br />
+                <b>Versandart:</b><br />
                 {{var shippingMethod}}
             </p>
             <p>
-                <b>Zahlungsart</b><br />
+                <b>Zahlungsart:</b><br />
                 {{var paymentMethod}}
             </p>
             <p>
-                <b>Datum &amp; Zeit</b><br />
+                <b>Datum &amp; Zeit:</b><br />
                 {{var dateAndTime}}
             </p>
         </td>
     </tr>
     </tbody>
 </table>
+{{template config_path="design/email/footer"}}
