@@ -61,6 +61,7 @@
       ["./app/locale/de_DE/Mage_Checkout.csv", "./app/locale/de_DE/Mage_Checkout.csv"],
       ["./app/locale/de_DE/Mage_Cms.csv", "./app/locale/de_DE/Mage_Cms.csv"],
       ["./app/locale/de_DE/Mage_Compiler.csv", "./app/locale/de_DE/Mage_Compiler.csv"],
+      ["./app/locale/de_DE/Mage_ConfigurableSwatches.csv", "./app/locale/de_DE/Mage_ConfigurableSwatches.csv"],
       ["./app/locale/de_DE/Mage_Connect.csv", "./app/locale/de_DE/Mage_Connect.csv"],
       ["./app/locale/de_DE/Mage_Contacts.csv", "./app/locale/de_DE/Mage_Contacts.csv"],
       ["./app/locale/de_DE/Mage_Core.csv", "./app/locale/de_DE/Mage_Core.csv"],
