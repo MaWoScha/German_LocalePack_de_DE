@@ -18,9 +18,9 @@
 
                                 to transfer all media to that location. Media will not be available in the new
 
-                                location until the synchronization process is complete.","Nachdem Sie einen neuen Speicherort für die Medienspeicherung festgelegt haben, klicken Sie bitte auf den ""Synchronisieren""-Button,
-                                um alle Medien zum neuen Speicherort zu kopieren. Ihre Medien sind solange am neuen
-                                Speicherort verfügbar, bis der Synchronisations&shy;vorgang abgeschlossen ist."
+                                location until the synchronization process is complete.","Nachdem Sie einen neuen Speicherort für die Medien&shy;speicherung festgelegt haben, klicken Sie bitte auf den ""Synchronisieren""-Button,
+                                um alle Medien zum neuen Speicherort zu kopieren. Ihre Medien sind an diesem neuen
+                                Speicherort erst verfügbar, wenn der Synchronisations&shy;vorgang abgeschlossen ist."
 "Allow Countries","Erlaubte Länder"
 "Allow Magento Backend to run in frame","Dem Magento-Backend erlauben, in einem Frame zu laufen"
 "Allow Magento Frontend to run in frame","Dem Magento-Frontend erlauben, in einem Frame zu laufen"
@@ -137,7 +137,7 @@
 "Exceptions Log File Name","Dateiname für Exception-Log"
 "Favicon Icon","Favicon Grafik"
 "File %s does not exist","Datei %s existiert nicht"
-"File %s is not readable","Datei %s ist nicht beschreibbar"
+"File %s is not readable","Datei %s kann nicht gelesen werden"
 "File not found","Datei nicht gefunden"
 "File system","Dateisystem"
 "File with an extension ""%value%"" is protected and cannot be uploaded","Dateien mit der Dateiendung ""%value%"" sind geschützt und können nicht hochgeladen werden"
