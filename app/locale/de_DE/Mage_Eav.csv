@@ -85,7 +85,7 @@
 "Invalid entity_id, skipping the record.","Ungültige Entity_id, Datensatz wird übersprungen."
 "Invalid entity_type specified: %s","Ungültiger Datensatztyp angegeben: %s"
 "Invalid foreign key","Ungültiger Fremdschlüssel"
-"Invalid form type.","Ungültige Formuarart."
+"Invalid form type.","Ungültige Formularart."
 "Invalid joint fields","Ungültige gemeinsame Felder"
 "Invalid store specified","Ungültiger Store angegeben"
 "Invalid type given. String expected","Ungültiger Datentyp. Zeichenfolge wird erwartet"

@@ -74,7 +74,7 @@
 "Product(s) %s have required options. Each product can only be added individually.","Artikel %s hat/haben Pflicht-Optionen. Sie können nur einzeln zum Warenkorb hinzugefügt werden."
 "Quantity","Menge"
 "RSS Feed","RSS-Feed"
-"RSS link to %s's wishlist","RSS-Link zu Wunschzettel von %s"
+"RSS link to %s's wishlist","RSS-Link zum Wunschzettel von %s"
 "Remove Item","Artikel entfernen"
 "Remove This Item","Diesen Artikel entfernen"
 "Remove item","Artikel entfernen"
@@ -102,3 +102,4 @@
 "====","===="
 "Qty","Menge"
 "SKU","Artikelnummer"
+"%1$s has been added to your wishlist. Click <a href=""%2$s"">here</a> to continue shopping.","%1$s wurde Ihrem Wunschzettel hinzugefügt. Klicken Sie <a href=""%2$s"">hier</a>, um weiter einzukaufen."

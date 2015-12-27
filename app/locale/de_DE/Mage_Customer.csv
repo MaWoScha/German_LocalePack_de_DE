@@ -357,7 +357,7 @@
 "Show VAT Number on Frontend","USt-IdNr. im Frontend anzeigen"
 "Sign Up for Newsletter","In den Newsletter eintragen"
 "Skipping import row, required field ""%s"" is not defined.","Importzeile übersprungen, Pflichtfeld ""%s"" nicht angegeben."
-"Skipping import row, website ""%s"" field does not exist.","Importzeile übersprungen, Website ""%s"" feld gibt es nicht."
+"Skipping import row, website ""%s"" field does not exist.","Importzeile übersprungen, Website ""%s"" Feld gibt es nicht."
 "State/Province","Bundesland"
 "Status","Status"
 "Store","Store"
