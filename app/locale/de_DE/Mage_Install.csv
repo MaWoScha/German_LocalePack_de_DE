@@ -87,7 +87,7 @@
 "Please make sure that <code>mod_rewrite</code> is enabled in Apache configuration.","Bitte stellen Sie sicher, dass <code>mod_rewrite</code> in der Apache-Konfiguration aktiviert wurde."
 "Please note that it is much less stable than beta.","Bitte beachten Sie, dass dies noch nicht ausreichend stabil funktioniert."
 "Please note that only UNIX, Linux and Mac OS X shells are currently supported. For Windows use the '%s' option.","Bitte beachten Sie, dass aktuell ausschließlich UNIX, Linux und Mac OS X Shells unterstützt werden. Für Windows verwenden Sie bitte die '%s' Option."
-"Please set all required settings before clicking Continue","Bitte stellen Sie sicher, dass Sie alle benötigten Felder ausgefüllt haben, bevor Sie fortfahren"
+"Please set all required settings before clicking Continue","Bitte stellen Sie sicher, dass Sie alle benötigten Felder ausgefüllt haben, bevor Sie fortfahren."
 "Preferred stability: %s","Gewünschte Stabilität: %s"
 "Proceed With Automatic Download (%s)","Mit automatischem Download fortfahren (%s)"
 "Provide a complete base URL for SSL connection. For example: %s","Bitte geben Sie für eine SSL-Verbindung den vollständigen Basis-URL an (beispielsweise: %s)."

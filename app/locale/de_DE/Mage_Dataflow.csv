@@ -10,7 +10,7 @@
 "Dry run set, stopping execution.","Testlauf gesetzt, Ausführung wird beendet."
 "ETA: %s","Geschätzte Zeit: %s"
 "Error in field mapping: field list for mapping is not defined.","Fehler bei der Feldzuweisung: Zuordnungsliste ist nicht definiert."
-"File ""%s"" does not exist.","Datei ""%s"" existiert nicht"
+"File ""%s"" does not exist.","Datei ""%s"" existiert nicht."
 "Found %d rows.","%d Zeilen gefunden."
 "Less than a minute","Weniger als eine Minute"
 "Loaded successfully: ""%s"".","Erfolgreich geladen: ""%s""."
