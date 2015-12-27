@@ -110,7 +110,7 @@
 "Address","Adresse"
 "Address Verification System Response","Adress Überprüfungsantwort vom System"
 "Advanced Settings","Erweitert"
-"Advertise Bill Me Later","Bill Me Later bewerben"
+"Advertise Paypal Credit","PayPal-Käuferkredit bewerben"
 "All the address information matched","Ale Adressinformationen stimmen überein"
 "Allow in Billing Agreement Wizard","Im Assistenten für Zahlungs&shy;vereinbarungen erlauben"
 "Allowable values: ""paypal"", ""primary"" (default), your_custom_value (a custom payment page style from your merchant account profile).","Erlaubte Werte: ""paypal"",""primär"" (Standard), eigener_wert (ein eigener Zahlungsseiten-Stil von Ihrem Händlerkonto-Profil)."
@@ -177,7 +177,7 @@
 "Chargeback","Rückverrechnung"
 "Checkout Cart Page","Warenkorb-Seite"
 "Checkout with PayPal","Mit PayPal bezahlen"
-"Checkout with PayPal Bill Me Later","Checkout mit PayPal Bill Me Later"
+"Checkout with PayPal Paypal Credit","Mit PayPal-Käuferkredit bezahlen"
 "Choose a secure bundled payment solution for your business.","Bitte wählen Sie eine sichere Zahlungsartkombination für Ihr Geschäft."
 "City","Stadt"
 "Click here if you are not redirected within 10 seconds...","Klicken Sie bitte hier, wenn Sie nicht binnen 10 Sekunden weitergeleitet werden …"
@@ -227,10 +227,10 @@
 "Email Associated with PayPal Merchant Account","E-Mail-Adresse Ihres PayPal-Händlerkontos"
 "Email Associated with PayPal Merchant Account (Optional)","E-Mail-Adresse Ihres PayPal-Händlerkontos (Optional)"
 "Enable Automatic Fetching","Automatische Abholung aktivieren"
-"Enable Bill Me Later","Bill-Me-Later aktivieren"
 "Enable Express Checkout","Express-Checkout aktivieren"
 "Enable PayPal Guest Checkout","PayPal-Gast-Checkout aktivieren"
 "Enable Payflow Link","Payflow-Link aktivieren"
+"Enable Paypal Credit","PayPal-Käuferkredit aktivieren"
 "Enable SSL verification","SSL-Prüfung aktivieren"
 "Enable this Solution","Diese Lösung aktivieren"
 "Enabled","Aktiviert"
@@ -361,7 +361,7 @@
 "N/A. The merchant did not provide AVS information","Nicht verfügbar - der Händler unterstützt keine AVS-Information"
 "N/A. The merchant has not implemented CVV2 code handling","Nicht verfügbar - der Händler hat CVV2-Code verarbeitung nicht implementiert"
 "N/A. Unavailable","Nicht verfügber/Nicht erreichbar"
-"Near Bill Me Later checkout button","In der Nähe der Bill Me Later-Checkout-Schaltfläche"
+"Near Paypal Credit checkout button","In der Nähe des PayPal-Käuferkredit-Buttons"
 "Negative Balance","Negativer Kontostand"
 "Never","Niemals"
 "No","Nein"
@@ -402,11 +402,11 @@
 "PayPal Express Checkout Shortcut Wrapper","PayPal Express Checkout Shortcut Wrapper"
 "PayPal Express Checkout Token does not exist.","PayPal Express Checkout Merkmal existiert nicht."
 "PayPal Express Checkout is not enabled.","PayPal Express Checkout ist nicht aktiviert."
-"PayPal Express Checkout lets you give customers access to financing through Bill Me Later&#174; - at no additional cost to you.
-                                        You get paid up front, even though customers have more time to pay. A pre-integrated payment button lets customers pay quickly with Bill Me Later&#174;.
+"PayPal Express Checkout lets you give customers access to financing through Paypal Credit&#174; - at no additional cost to you.
+                                        You get paid up front, even though customers have more time to pay. A pre-integrated payment button lets customers pay quickly with Paypal Credit&#174;.
                                         <a href=""https://www.paypal.com/webapps/mpp/promotional-financing"" target=""_blank"">Learn More</a>
-                                                ","PayPal Express Checkout lets you give customers access to financing through Bill Me Later&#174; - at no additional cost to you.
-                                        You get paid up front, even though customers have more time to pay. A pre-integrated payment button lets customers pay quickly with Bill Me Later&#174;.
+                                                ","PayPal Express Checkout lets you give customers access to financing through Paypal Credit&#174; - at no additional cost to you.
+                                        You get paid up front, even though customers have more time to pay. A pre-integrated payment button lets customers pay quickly with Paypal Credit&#174;.
                                         <a href=""https://www.paypal.com/webapps/mpp/promotional-financing"" target=""_blank"">Learn More</a>
                                                 "
 "PayPal Express Order Review Form","PayPal Express Bestellübersicht"
