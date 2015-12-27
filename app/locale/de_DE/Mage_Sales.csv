@@ -810,7 +810,7 @@
 "Total Shipping Charges","Gesamt Summe Versandkosten"
 "Total Tax","Gesamtbetrag Steuern"
 "Total Weight","Gesamtgewicht"
-"Total model should be extended from Mage_Sales_Model_Order_Total_Abstract.","Gesamtsummen-Modell sollte die Klasse Mage_Sales_Model_Order_Total_Abstract erweitern."
+"Total model should be extended from Mage_Sales_Model_Order_Total_Abstract.","Das Gesamtsummen-Modell sollte die Klasse Mage_Sales_Model_Order_Total_Abstract erweitern."
 "Track Order","Sendungsverfolgung"
 "Track all shipment(s)","Alle Sendungen verfolgen"
 "Track all shipments","Alle Sendungen verfolgen"

@@ -138,7 +138,7 @@
 "Tax rates at the same priority are added, others are compounded.","Steuersätze mit gleicher Priorität werden erst addiert und anschließend auf die Summe aufgeschlagen. Steuersätze mit unterschiedlicher Priorität werden in ihrer Reihenfolge immer auf die Summe der vorhergehenden Steuerberechnung aufgeschlagen."
 "The tax class has been deleted.","Die Steuerklasse wurde gelöscht."
 "The tax class has been saved.","Die Steuerklasse wurde gespeichert."
-"The tax rate has been deleted.","Steuersatz wurde gelöscht."
+"The tax rate has been deleted.","Der Steuersatz wurde gelöscht."
 "The tax rate has been imported.","Der Steuersatz wurde importiert."
 "The tax rate has been saved.","Der Steuersatz wurde gespeichert."
 "The tax rule has been deleted.","Die Steuerregel wurde gelöscht."

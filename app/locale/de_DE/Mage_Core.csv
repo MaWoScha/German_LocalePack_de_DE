@@ -53,7 +53,7 @@
 "CSRF protection","CSRF protection"
 "CSS Settings","CSS-Einstellungen"
 "Cache Storage Management","Cache-Verwaltung"
-"Cache storage may contain additional data. Are you sure that you want flush it?","Cache-Speicher enthält möglicherweise zusätzliche Daten. Möchten Sie ihn wirklich leeren?"
+"Cache storage may contain additional data. Are you sure that you want flush it?","Der Cache-Speicher enthält möglicherweise zusätzliche Daten. Möchten Sie ihn wirklich leeren?"
 "Can not create invoice. Order was not found.","Rechnung konnte nicht erstellt werden, da die Bestellung nicht gefunden wurde."
 "Can't retrieve request object","Kann Anfrageobjekt nicht ermitteln"
 "Can\'t retrieve entity config: %s","Kann Entity-Konfiguration nicht ermitteln: %s"
