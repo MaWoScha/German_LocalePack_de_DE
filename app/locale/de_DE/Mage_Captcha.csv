@@ -8,7 +8,7 @@
 "Displaying Mode","Darstellungsart"
 "Enable CAPTCHA in Admin","CAPTCHA im AdminPanel aktivieren"
 "Enable CAPTCHA on Frontend","CAPTCHA im Frontend aktivieren"
-"Font","Schrift"
+"Font","Schriftart"
 "Forms","Formulare"
 "If 0 is specified, CAPTCHA on the Login form will be always available.","Wenn 0 angegeben wird, ist das CAPTCHA im Anmeldeformular immer aktiv."
 "Incorrect CAPTCHA.","CAPTCHA nicht korrekt."
