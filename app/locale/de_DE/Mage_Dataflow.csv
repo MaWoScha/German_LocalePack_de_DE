@@ -5,7 +5,7 @@
 "Could not save file: %s.","Datei konnte nicht gespeichert werden: ""%s""."
 "Declared adapter %s was not found.","Adapter %s nicht gefunden."
 "Destination folder ""%s"" is not a directory.","Zielordner ""%s"" ist kein Verzeichnis."
-"Destination folder ""%s"" is not writable.","In Zielordner ""%s"" kann nicht geschrieben werden."
+"Destination folder ""%s"" is not writable.","Zielordner ""%s"" ist nicht beschreibbar."
 "Done","Fertig"
 "Dry run set, stopping execution.","Testlauf gesetzt, Ausführung wird beendet."
 "ETA: %s","Geschätzte Zeit: %s"

@@ -253,7 +253,7 @@
 "Failed to fetch reports from '%s@%s'.","Fehler beim Abholen der Reporte von '%s@%s'."
 "Fax","Fax"
 "Fee Amount","Gebühren"
-"Fee Debit or Credit","Debit- oder Kreditkartengebühr"
+"Fee Debit or Credit","Lastschrift- oder Kreditkartengebühr"
 "Fee Reversal","Stornogebühr"
 "Fee: Foreign ACH Withdrawal","Gebühr: Ausländische ACH-Abbuchung"
 "Fee: Mass Pay Request","Gebühr: Massenzahlungsanforderung"
@@ -407,7 +407,7 @@
                                         <a href=""https://www.paypal.com/webapps/mpp/promotional-financing"" target=""_blank"">Learn More</a>
                                                 ","PayPal Express Checkout lets you give customers access to financing through Paypal Credit&#174; - at no additional cost to you.
                                         You get paid up front, even though customers have more time to pay. A pre-integrated payment button lets customers pay quickly with Paypal Credit&#174;.
-                                        <a href=""https://www.paypal.com/webapps/mpp/promotional-financing"" target=""_blank"">Learn More</a>
+                                        <a href=""https://www.paypal.com/webapps/mpp/promotional-financing"" target=""_blank"">Erfahre mehr</a>
                                                 "
 "PayPal Express Order Review Form","PayPal Express Bestellübersicht"
 "PayPal Fee Information","PayPal Gebühreninformation"
@@ -582,7 +582,7 @@
 "Transaction reversal due to fraud detected by PayPal administrators.","Transaktion wurde wegen Betrugsverdachts von PayPal-Administratoren rückgängig gemacht."
 "Transfer Cart Line Items","Artikel des Warenkorbs übertragen"
 "Transfer Shipping Options","Versandoptionen übertragen"
-"Triggered Fraud Filters","Betrugsverdacht-Filter ausgelöst"
+"Triggered Fraud Filters","Ausgelöste Betrugsverdacht-Filter"
 "URL method for Cancel URL and Return URL","URL-Methode für Abbruch- und Rückkehr-URL"
 "Unable to cancel Express Checkout.","Express-Bezahlvorgang konnte nicht abgebrochen werden."
 "Unable to change status. Current status is not correspond to real status.","Status kann nicht geändert werden. Der aktuelle Status entspricht nicht dem tatsächlichen Status."
@@ -599,7 +599,7 @@
 "Update Order Data","Bestelldaten aktualisieren"
 "Update Shipping Method","Versandart aktualisieren"
 "Use Proxy","Proxy verwenden"
-"Use colon to specify port. For example: ""test.example.com:5224"".","Verwenden Sie den Doppelpunkt, um einen Port festzulegen. Zum Beispiel: ""test.example.com:5224""."
+"Use colon to specify port. For example: ""test.example.com:5224"".","Verwenden Sie den Doppelpunkt, um einen Port festzulegen. Zum Beispiel: ""test.beispiel.de:5224""."
 "User","Benutzer"
 "User-initiated Currency Conversion","Vom Benutzer gestartete Währungsumrechnung"
 "Uses store frontend name by default.","Verwendet standardmäßig den Shop-Namen."
@@ -636,7 +636,7 @@
 "Yes","Ja"
 "Yes (PayPal recommends this option)","Ja (PayPal empfiehlt diese Option)"
 "Yes. Matched Address and five-didgit ZIP","Ja. Übereinstimmende Adresse und fünfstellige Postleitzahl"
-"You cannot void a verification transaction","Überprüfungstransaktionen können nicht storniert werden."
+"You cannot void a verification transaction","Sie können eine Überprüfungs&shy;transaktion nicht stornieren."
 "You will be redirected to the PayPal website in a few seconds.","Sie werden in wenigen Sekunden auf die PayPal-Bezahlseite weitergeleitet."
 "You will be redirected to the PayPal website when you place an order.","Sie werden zur PayPal-Bezahlseite weitergeleitet, wenn Sie die Bestellung abschließen."
 "You will be redirected to the PayPal website.","Sie werden zur PayPal-Bezahlseite umgeleitet."

@@ -1,6 +1,6 @@
 "Access denied.","Zugriff verweigert."
 "Can not find webservice adapter.","Web Service-Adapter wurde nicht gefunden."
-"Client Session Timeout (sec.)","Client Session Zeitüberschreitung (Sek.)"
+"Client Session Timeout (sec.)","Zeitüberschreitung bei der Kundensitzung (Sek.)"
 "Default Response Charset","Standard-Schriftsatz für Antwort"
 "Email","E-Mail"
 "Enable WSDL Cache","WSDL-Cache aktivieren"
