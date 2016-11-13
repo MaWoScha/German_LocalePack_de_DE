@@ -20,6 +20,7 @@ js/tiny_mce/plugins/advlink/langs/de_dlg.js             js/tiny_mce/plugins/advl
 js/tiny_mce/plugins/autosave/langs/de.js                js/tiny_mce/plugins/autosave/langs/de.js
 js/tiny_mce/plugins/emotions/langs/de_dlg.js            js/tiny_mce/plugins/emotions/langs/de_dlg.js
 js/tiny_mce/plugins/fullpage/langs/de_dlg.js            js/tiny_mce/plugins/fullpage/langs/de_dlg.js
+js/tiny_mce/plugins/media/langs/de_dlg.js               js/tiny_mce/plugins/media/langs/de_dlg.js
 js/tiny_mce/plugins/paste/langs/de_dlg.js               js/tiny_mce/plugins/paste/langs/de_dlg.js
 js/tiny_mce/plugins/searchreplace/langs/de_dlg.js       js/tiny_mce/plugins/searchreplace/langs/de_dlg.js
 js/tiny_mce/plugins/style/langs/de_dlg.js               js/tiny_mce/plugins/style/langs/de_dlg.js
