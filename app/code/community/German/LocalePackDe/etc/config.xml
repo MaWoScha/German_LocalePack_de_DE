@@ -56,6 +56,15 @@
                 </connection>
             </localepackde_setup>
         </resources>
+        <template>
+            <email>
+                <design_email_support translate="label" module="core">
+                    <label>Email - Support</label>
+                    <file>html/support.html</file>
+                    <type>text</type>
+                </design_email_support>
+            </email>
+        </template>
     </global>
 	
     <default>
