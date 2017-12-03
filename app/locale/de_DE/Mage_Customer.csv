@@ -279,6 +279,7 @@
 "Per Website","Pro Website"
 "Personal Information","Persönliche Informationen"
 "Please enter a number 1 or greater in this field.","Bitte tragen Sie eine Zahl 1 oder größer in dieses Feld ein."
+"Please enter a password with at most %s characters.","Bitte geben Sie ein Passwort mit höchstens %s Zeichen ein."
 "Please enter a valid date between %s and %s at %s.","Bitte geben Sie ein gültiges Datum zwischen dem %s und %s bei %s an."
 "Please enter a valid date equal to or greater than %s at %s.","Bitte geben Sie ein gültiges Datum am oder nach dem %s an."
 "Please enter a valid date less than or equal to %s at %s.","Bitte geben Sie ein gültiges Datum am oder vor dem %s an."

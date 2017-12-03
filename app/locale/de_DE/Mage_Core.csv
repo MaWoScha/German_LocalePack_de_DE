@@ -2,6 +2,9 @@
 "%s already exist.","%s existiert bereits"
 "%s already exists.","%s existiert bereits"
 "-- Please Select --","-- Bitte wählen --"
+"<strong style=""color:red"">Important!</strong> Enabling this option means
+                            that your custom templates used in checkout process contain form_key output.
+                            Otherwise checkout may not work.","<strong style=""color:red"">Wichtig!</strong> Wenn Sie diese Option aktivieren, enthalten Ihre benutzer&shy;definierten Vorlagen, die im Bestell&shy;vorgang verwendet werden, die Ausgabe form_key. Andernfalls funktioniert der Bezahl&shy;vorgang möglich&shy;er&shy;weise nicht."
 "<strong style=""color:red"">Warning!</strong> When using CDN, in some cases JavaScript may not run properly if CDN is not in your subdomain","<strong style=""color:red"">Achtung!</strong> Sollten sie ein CDN verwenden, kann es passieren, dass JavaScript nicht korrekt arbeitet, wenn das CDN nicht innerhalb Ihrer Subdomain liegt."
 "<strong style=""color:red"">Warning!</strong> When using Store Code in URLs, in some cases system may not work properly if URLs without Store Codes are specified in the third party services (e.g. PayPal etc.).","<strong style=""color:red"">Achtung!</strong> Wenn Sie den StoreCode in URLs verwenden, kann es passieren, dass das System nicht ordnungsgemäß arbeitet, wenn URLs ohne StoreCode im Dritthersteller-Anwendungen (PayPal o.ä.) verwendet werden."
 "A category object is required for determining the product request path.","Kategorie-Objekt wird zur Bestimmung des Artikelpfades benötigt."
@@ -172,6 +175,7 @@
 "Invalid block: %s","Ungültiger Block: %s"
 "Invalid connection","Ungültige Verbindung"
 "Invalid date","Ungültiges Datum"
+"Invalid image.","Ungültiges Bild."
 "Invalid layout update handle","Ungültiges Layout-Update-Handle"
 "Invalid messages storage ""%s"" for layout messages initialization","Ungültiger Nachrichtenspeicher ""%s"" für die Initialisierung der Nachrichtenvorlage"
 "Invalid query","Ungültige Anfrage"
@@ -185,7 +189,9 @@
 "Locale Options","Optionen für Lokalisierungen"
 "Log Settings","Log Einstellungen"
 "Logging from Mage::log(). File is located in {{base_dir}}/var/log","Logging per Mage::log(). Datei wird unter {{base_dir}}/var/log abgespeichert"
+"Logging from Mage::log(). File is located in {{base_dir}}/var/log. Allowed file extensions: log, txt, html, csv","Logging von Mage::log(). Datei wird unter {{base_dir}}/var/log abgespeichert. Erlaubte Dateiendungen: log, txt, html, csv"
 "Logging from Mage::logException(). File is located in {{base_dir}}/var/log","Logging per Mage::logException(). Datei wird unter {{base_dir}}/var/log abgespeichert"
+"Logging from Mage::logException(). File is located in {{base_dir}}/var/log. Allowed file extensions: log, txt, html, csv","Logging von Mage::logException(). Datei wird unter {{base_dir}}/var/log abgespeichert. Erlaubte Dateiendungen: log, txt, html, csv"
 "Login is Case Sensitive","Login ist Case Sensitive:<br />Unterscheidung von Groß- und Kleinschreibung"
 "Logo Image","Logo"
 "Logo Image Alt","Alternativtext für Logo"
