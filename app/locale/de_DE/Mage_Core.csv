@@ -18,9 +18,7 @@
 "Admin routing compatibility mode for extensions","Routing-Kompatibilitätsmodus für Erweiterungen"
 "Advanced","Erweitert"
 "After selecting a new media storage location, press the Synchronize button
-
                                 to transfer all media to that location. Media will not be available in the new
-
                                 location until the synchronization process is complete.","Nachdem Sie einen neuen Speicherort für die Medien&shy;speicherung festgelegt haben, klicken Sie bitte auf den ""Synchronisieren""-Button,
                                 um alle Medien zum neuen Speicherort zu kopieren. Ihre Medien sind an diesem neuen
                                 Speicherort erst verfügbar, wenn der Synchronisations&shy;vorgang abgeschlossen ist."
@@ -249,7 +247,7 @@
 "Please enter a valid day (1-%d).","Bitte geben Sie einen gültigen Tag (1-%d) an."
 "Please enter a valid email address. For example johndoe@domain.com.","Bitte geben Sie eine gültige E-Mail-Adresse ein. Zum Beispiel mustermann@domain.de."
 "Please enter a valid fax number. For example (123) 456-7890 or 123-456-7890.","Bitte tragen Sie eine gültige Faxnummer ein. Zum Beispiel (123) 456-7890 oder 123-456-7890."
-"Please enter a valid full date","Bitte geben Sie eine vollständiges, gültiges Datum an."
+"Please enter a valid full date","Bitte geben Sie ein vollständiges, gültiges Datum an."
 "Please enter a valid month (1-12).","Bitte geben Sie einen gültigen Monat (1-12) an."
 "Please enter a valid number in this field.","Bitte geben Sie eine gültige Nummer in dieses Feld ein."
 "Please enter a valid phone number. For example (123) 456-7890 or 123-456-7890.","Bitte geben Sie eine gültige Telefonnummer ein. Zum Beispiel (123) 456-7890 oder 123-456-7890."
