@@ -107,6 +107,7 @@
       ["./app/locale/de_DE/Mage_Sitemap.csv", "./app/locale/de_DE/Mage_Sitemap.csv"],
       ["./app/locale/de_DE/Mage_Tag.csv", "./app/locale/de_DE/Mage_Tag.csv"],
       ["./app/locale/de_DE/Mage_Tax.csv", "./app/locale/de_DE/Mage_Tax.csv"],
+      ["./app/locale/de_DE/Mage_Uploader.csv", "./app/locale/de_DE/Mage_Uploader.csv"],
       ["./app/locale/de_DE/Mage_Usa.csv", "./app/locale/de_DE/Mage_Usa.csv"],
       ["./app/locale/de_DE/Mage_Weee.csv", "./app/locale/de_DE/Mage_Weee.csv"],
       ["./app/locale/de_DE/Mage_Widget.csv", "./app/locale/de_DE/Mage_Widget.csv"],
