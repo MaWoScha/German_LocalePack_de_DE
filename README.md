@@ -99,3 +99,4 @@ Tenga en cuenta también: Desinstalar la traducción fabricante a través de Mag
 # Siehe auch / See also / Véase también
 * [German LocalePack de_AT](https://github.com/MaWoScha/German_LocalePack_de_AT)
 * [German LocalePack de_CH](https://github.com/MaWoScha/German_LocalePack_de_CH)
+* [German LocalePack de_DE_DU](https://github.com/MaWoScha/German_LocalePack_de_DE_DU) (Informelle Du-Form)
