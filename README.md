@@ -6,7 +6,7 @@ Dieses Sprachpaket wird von MaWoScha verwaltet.<br />
 This language package is managed by MaWoScha.<br />
 Este paquete de idioma está gestionado por MaWoScha.
 
-# Neu!
+## Neu!
 
 Ab der Version 0.5.0 der Erweiterung [German_LocaleFallback](https://github.com/MaWoScha/German_LocaleFallback) können Sie kundenspezifische Sprachpakete unter der locale [de_ZZ](https://github.com/MaWoScha/German_LocalePack_de_ZZ) ablegen. Dort können Sie einzelne kundenspezifische Übersetzungen einpflegen, welche die Einträge dieses Sprachpaketes überschreiben.
 Das Sprachpaket [German LocalePack de_DE_DU](https://github.com/MaWoScha/German_LocalePack_de_DE_DU) (Informelle Du-Form) funktioniert nach diesem Prinzip.
