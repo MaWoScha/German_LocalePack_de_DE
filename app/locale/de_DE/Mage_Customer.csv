@@ -201,6 +201,7 @@
 "Invalid email address ""%s"".","Ungültige E-Mail-Adresse ""%s""."
 "Invalid email address.","Ungültige E-Mail-Adresse."
 "Invalid login or password.","Ungültiger Benutzername oder Passwort."
+"Invalid password reset customer Id.","Ungültige Passwort-Reset-Kunden-ID."
 "Invalid password reset token.","Ungültiges Passwort-Reset-Token"
 "Invalid shipping address for (%s)","Ungültige Versandanschrift für (%s)"
 "Invalid store specified, skipping the record.","Ungültiger Laden angegeben, Eintrag wird übersprungen."
