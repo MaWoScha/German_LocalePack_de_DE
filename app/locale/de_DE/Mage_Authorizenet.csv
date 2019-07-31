@@ -3,6 +3,7 @@
 "Accepted Currency","Akzeptierte Währung"
 "Amount of %s approved by payment gateway. Transaction ID: ""%s"".","Zahlung über %s wurde vom Gateway bestätigt. Transaktionsnummer: ""%s""."
 "Authorize.net Direct Post","Authorize.net Direct Post"
+"Authorize.net Direct Post (Deprecated)","Authorize.net Direct Post (veraltet)"
 "Card Verification Number","Kartenprüfnummer"
 "Card Verification Number Visual Reference","Kartenprüfnummer"
 "Close","Schließen"
