@@ -244,6 +244,8 @@
 "Path ""%value%"" is protected and cannot be used.","Pfad ""%value%"" ist geschützt und kann nicht verwendet werden."
 "Path ""%value%"" may not include parent directory traversal (""../"", ""..\\).""","Pfad ""%value%"" darf keine Verzeichnis-Sonderzeichen enthalten (""../"", ""..\\"")."
 "Please define flag code.","Bitte Markierungscode festlegen"
+"Please do not use ""event"" for an attribute code.","Bitte verwenden Sie ""event"" nicht für einen Attributkode."
+"Please do not use event"" for an attribute code.""","Bitte verwenden Sie ""event"" nicht für einen Attributkode."
 "Please enter 6 or more characters without leading or trailing spaces.","Bitte geben Sie 6 oder mehr Zeichen ein ohne Leerzeichen am Anfang oder Ende."
 "Please enter 6 or more characters. Leading or trailing spaces will be ignored.","Bitte geben Sie 6 oder mehr Zeichen ein. Leerzeichen am Anfang oder Ende der Zeichenkette werden entfernt."
 "Please enter 7 or more characters. Password should contain both numeric and alphabetic characters.","Bitte geben Sie 7 oder mehr Zeichen ein. Ein Passwort sollte sowohl aus Ziffern wie aus Buchstaben bestehen."

@@ -103,6 +103,8 @@
 "Attribute Sets","Merkmalgruppen"
 "Attribute add","Merkmal hinzufügen"
 "Attribute code is invalid. Please use only letters (a-z), numbers (0-9) or underscore(_) in this field, first character should be a letter.","Merkmalkode ist ungültig. Bitte verwenden Sie nur Buchstaben (a-z), Ziffern (0-9) oder Unterstriche (_) in diesem Feld, das erste Zeichen sollte ein Buchstabe sein."
+"Attribute code is invalid. Please use only letters (a-z), numbers (0-9) or underscore(_) in this field, first character should be a letter. Do not use ""event"" for an attribute code.","Merkmalkode ist ungültig. Bitte verwenden Sie nur Buchstaben (a-z), Ziffern (0-9) oder Unterstriche (_) in diesem Feld, das erste Zeichen sollte ein Buchstabe sein. Verwenden Sie nicht ""event"" als Merkmalkode."
+"Attribute code is invalid. Please use only letters (a-z), numbers (0-9) or underscore(_) in this field, first character should be a letter. Do not use event"" for an attribute code.""","Merkmalkode ist ungültig. Bitte verwenden Sie nur Buchstaben (a-z), Ziffern (0-9) oder Unterstriche (_) in diesem Feld, das erste Zeichen sollte ein Buchstabe sein. Verwenden Sie nicht ""event"" als Merkmalkode."
 "Attribute group with the \"/name/\" name already exists","Merkmalgruppe mit demselben Namen existiert bereits."
 "Attribute group with the \/name/\ name already exists","Merkmalgruppe mit demselben Namen existiert bereits."
 "Attribute names can be specified per store.","Merkmalnamen können pro Laden definiert werden."
