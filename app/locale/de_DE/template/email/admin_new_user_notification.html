@@ -1,0 +1,25 @@
+<!--@subject Neues Admin-Konto {{var user.name}} erstellt. @-->
+<!--@vars
+{"store url=\"\"":"Store Url",
+"var logo_url":"Email Logo Image Url",
+"var logo_alt":"Email Logo Image Alt",
+"htmlescape var=$user.name":"New Admin Name",
+@-->
+
+<!--@styles
+@-->
+
+{{template config_path="design/email/header"}}
+{{inlinecss file="email-inline.css"}}
+
+<table cellpadding="0" cellspacing="0" border="0">
+    <tr>
+        <td class="action-content">
+            <h1>Benachrichtigung über ein neues Admin-Konto.</h1>
+            <p>Für <b>{{htmlescape var=$user.name}}</b> wurde ein neues Admin-Konto erstellt unter der Verwendung folgender E-Mail-Adresse: {{htmlescape var=$user.email}}.</p>
+            <p>Wenn Sie diese Aktion nicht angefordert haben, lesen Sie bitte die Liste der Administrator-Konten <a href="{{store url=""}}">Ihrem store</a>.</p>
+        </td>
+    </tr>
+</table>
+
+{{template config_path="design/email/footer"}}
