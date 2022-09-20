@@ -115,6 +115,7 @@
 "System","System"
 "Text Area","Mehrzeiliger Textbereich"
 "Text Field","Einzeiliges Textfeld"
+"The value of attribute ""%s"" contains invalid data.","Der Wert des Merkmals ""%s"" enthält ungültige Daten."
 "The attribute code \'%s\' is reserved by system. Please try another attribute code","Der Merkmal-Kode \'%s\' ist für das System reserviert. Bitte benutzten Sie einen anderen Merkmal-Kode."
 "The value of attribute ""%s"" must be unique","Der Wert des Merkmals ""%s"" muss einmalig sein."
 "The value of attribute ""%s"" must be unique.","Der Wert des Merkmals ""%s"" muss einmalig sein."

@@ -14,6 +14,8 @@
 "Enabled","Aktiviert"
 "File ""%s"" must be writeable","Datei ""%s"" muss beschreibbar sein"
 "Not Compiled","Nicht kompiliert"
+"Operation in progress. Please try later","Ein Vorgang wird bearbeitet. Bitter später versuchen"
+"Please, press disable button before run compilation process","Bitte die Deaktivierschaltfläche vor dem Starten des Kompilierungsprozesses drücken."
 "Run Compilation Process","Kompilierungsprozess starten"
 "Scopes Compilation Settings","Bereichsbezogene Kompilierung"
 "System","System"

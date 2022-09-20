@@ -1019,6 +1019,7 @@
 "The icon that appears in the Android Market. Recommended size: 512px x 512px. Maximum size: 1024 KB.","Das Icon erscheint im Android Market. Empfohlene Größe: 512px x 512px. Maximale Größe: 1024 KB."
 "The length of the text in the %s field is too big. Please shorten the text.","Der Text im %s Eingabefeld ist zu lang. Bitte kürzen Sie ihn."
 "The max length of the field ""%@"" is %d!","Die maximale Länge des Felds ""%@"" ist %d!"
+"The minimum password length is ","Die Mindestlänge des Passworts ist "
 "The minimum password length is 6","Die Mindestlänge des Passworts ist 6 Zeichen"
 "The server responded with invalid data.","Der Server antwortete mit ungültigen Daten."
 "The shortening service returned status code %d indicating a client side error.","Der Dienst zu URL-Kürzung hat den Status %d zurückgegeben. Dies deutet auf einen Client-Fehler hin."
